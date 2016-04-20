@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context="tryjrt.com.micrmcurso3.apprisa.micrm.Persona"
+    android:background="#424141">
+
+    <EditText
+        style="@style/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:hint="Tipo"
+        android:textColorHighlight="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_above="@+id/editText27"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        style="@style/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText27"
+        android:hint="Organizacion"
+        android:textColorHint="#ffffff"
+        android:textColorLink="#ffffff"
+        android:layout_above="@+id/editText121"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        style="@style/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText29"
+        android:hint="Negocio"
+        android:textColorHint="#ffffff"
+        android:textColorLink="#ffffff"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        style="@style/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText120"
+        android:hint="Fecha"
+        android:textColorHint="#ffffff"
+        android:textColorLink="#ffffff"
+        android:layout_below="@+id/editText29"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        style="@style/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText121"
+        android:hint="Persona"
+        android:textColorHint="#ffffff"
+        android:textColorLink="#ffffff"
+        android:layout_above="@+id/editText29"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        style="@style/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/editText222"
+        android:hint="Hora"
+        android:textColorHighlight="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_below="@+id/editText120"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        style="@style/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/editText42"
+        android:hint="Descripcion"
+        android:textColorHighlight="#ffffff"
+        android:textColorHint="#ffffff"
+        android:layout_above="@+id/editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar Actividad"
+        android:id="@+id/button"
+        android:textColor="#ffffff"
+        android:background="#0edada"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:layout_marginBottom="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_personas"
+            android:icon="@drawable/ic_person"
+            android:title="Personas" />
+        <item
+            android:id="@+id/nav_organizacion"
+            android:icon="@drawable/ic_public"
+            android:title="Organizaciones" />
+        <item
+            android:id="@+id/nav_negocio"
+            android:icon="@drawable/ic_business"
+            android:title="Negocios" />
+
+        <item
+            android:id="@+id/nav_actividades"
+            android:icon="@drawable/ic_local_activity"
+            android:title="Actividades" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_compratir"
+                android:icon="@drawable/ic_menu_share"
+                android:title="compartir" />
+            <item
+                android:id="@+id/nav_contacto"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Contacto" />
+        </menu>
+    </item>
+
+</menu>
